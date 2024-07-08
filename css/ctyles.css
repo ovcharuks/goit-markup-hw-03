@@ -231,7 +231,7 @@ margin-right: 76px;
 }
 
 .section-third-photo-caption {
-  margin: 32px 16px;
+  padding: 32px 0;
 }
 
 .section-third-employee-name {
@@ -255,6 +255,10 @@ margin-right: 76px;
 
 /* section 4 */
 
+.section-fourth {
+  padding: 120px 0;
+}
+
 .section-fourth-title {
   font-weight: 700;
   font-size: 36px;
@@ -263,6 +267,27 @@ margin-right: 76px;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.section-fourth-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.section-fourth-photo-caption{
+padding: 32px 16px;
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
 }
 
 .section-fourth-titlephoto {
