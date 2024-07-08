@@ -112,6 +112,11 @@ margin-right: 76px;
     background-color: #2e2f42;
 }
 
+.section-first-container{
+  padding-top: 188px;
+  padding-bottom: 292px;
+}
+
 .section-first-title {
   font-weight: 700;
   font-size: 56px;
@@ -119,6 +124,8 @@ margin-right: 76px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .button {
@@ -130,6 +137,12 @@ margin-right: 76px;
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 48px;
+  
+
 }
 
 .button:hover,
