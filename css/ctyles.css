@@ -274,7 +274,8 @@ margin-right: 76px;
 .section-fourth-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-fourth-photo-caption{
@@ -296,6 +297,7 @@ gap: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section-fourth-text {
